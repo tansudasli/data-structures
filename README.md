@@ -1,10 +1,18 @@
-# c-sandbox
+# data-structures
+
+Production grade data structure implementations in C.
+
+- Linked list
 
 
-- `ansi-c` is about core C concepts
-- `kernel-programming` is about kernel _module_ development
-- `embedded-programming` is an STM32CubeIDE (eclipse project). So edit with this IDE.
-- `parallel-programming` w/ CUDA
-- `socket-programming` for IPC (internal process communication) in linux
-- `data-structures` such as ArrayList, Stack etc.. implemented as library.
-- `dynamic-programming` concepts applied for fibonacci, grid traversal and many other algorithms
+## How to Run
+
+`git clone ...`,
+
+- `brew install gcc` or `xcode-select --install` for compiler
+- `brew install cmake` to compile w/ cmake
+- then,
+    - `cd data-structures`,
+    - `./compile.sh`, and
+    - First `cd out/`,
+      then Run as `./linkedList` or other variations

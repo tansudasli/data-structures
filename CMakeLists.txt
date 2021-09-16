@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.17)
-project(ansi_c)
+project(data-structures)
 
 set(CMAKE_CXX_STANDARD 14)
 
@@ -53,7 +53,7 @@ add_executable(queue
         src/queue.c)
 
 add_executable(stockSpanProblem
-        ../data-structures/src/stockSpanProblem.c)
+        src/stockSpanProblem.c)
 
 #add_executable(collection
 #        src/header/ArrayList.h

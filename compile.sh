@@ -1,5 +1,4 @@
 #on linux/Mac/windows
-#under data-structures folder
 cmake . -B out
 make -C out
 

@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include "header/Sort.h"
+#include "header/sort.h"
 
 
 void printArr(void *c) {
